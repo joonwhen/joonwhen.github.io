@@ -1,0 +1,49 @@
+body{
+  background-color: #071724;
+  font-family: san-serif, helvetica;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+header img{
+  display: block;
+  margin: auto;
+}
+
+nav{
+  height: 50px;
+  margin-top: -16px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  line-height: 50px;
+  float: left;
+  display: block;
+  width: 25%;
+  text-align: center;
+  vertical-align: center;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+.post{
+}
+
+.module{
+  border: 0.5px solid white;
+  float: left;
+  width: 48%;
+  margin: 0.5% 0.5% 0.5% 0.5%;
+  background-color: black;
+  color: gold;
+}
