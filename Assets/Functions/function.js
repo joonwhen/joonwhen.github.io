@@ -38,6 +38,8 @@ function Timer_Form(){
   + minutes + "m " + seconds + "s ";
 }
 
+setInterval(Timer_Form, 1000);
+
 function reverse_string(){
   x = document.getElementById("string_to_be_reversed").value;
   var x_str = x.toString();
